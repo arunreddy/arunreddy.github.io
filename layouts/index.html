@@ -3,14 +3,10 @@
   <head>
     <title>Arun Reddy Nelakurthi</title>
 
-    <link rel="stylesheet" href="http://www.public.asu.edu/~anelakur/css/bootstrap.min.css">
-<link rel="stylesheet" href="http://www.public.asu.edu/~anelakur/css/bootstrap-theme.min.css">
-<link rel="stylesheet" href="http://www.public.asu.edu/~anelakur/css/styles.css">
-
-
+    {{ partial "head_css.html" . }}
   </head>
   <body>
-    
+    <!-- Begin Page Content -->
     <div class="container">
       <div class="row">
         <div class="col-md-7">
@@ -18,9 +14,9 @@
             <div class="container">
               <ul class="nav navbar-nav">
                 <li><a href="#">Home</a></li>
-                <li><a href="http://www.public.asu.edu/~anelakur/projects/">Projects</a></li>
-                <li><a href="http://www.public.asu.edu/~anelakur/publications/">Publications</a></li>
-                <li><a href="http://www.public.asu.edu/~anelakur//misc">Miscellany</a></li>
+                <li><a href="{{.Site.BaseURL}}projects/">Projects</a></li>
+                <li><a href="{{.Site.BaseURL}}publications/">Publications</a></li>
+                <li><a href="{{.Site.BaseURL}}/misc">Miscellany</a></li>
               </ul>
             </div>
           </nav>
@@ -47,7 +43,7 @@
       <p>arunreddy {at} asu {dot} edu</p>
 
 
-    </div>
+    </div><!-- End Page Content -->
 
     <footer class="footer">
       <div class="container">
@@ -55,7 +51,7 @@
       </div>
     </footer>
   </body>
-  
+  <!-- JavaScript -->
   <script type="text/javascript" src=""></script>
 </html>
 

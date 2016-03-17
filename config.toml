@@ -1,3 +1,37 @@
 baseurl = "http://www.public.asu.edu/~anelakur/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Arun's Weblog"
+
+
+
+theme = "casper"
+
+[params]
+  description = "Graduate Student @ ASU"
+  author = "Arun Reddy Nelakurthi"
+  authorlocation = "Tempe, AZ"
+  googleAnalyticsUserID = ""
+  
+  # Social Accounts
+  githubName = "arunreddy"
+  twitterName = "arunreddy"
+  
+
+
+[[menu.main]] 
+  name = "My Blog"
+  weight = -120
+  identifier = "blog"
+  url = "/"
+
+[[menu.main]] 
+  name = "About"
+  weight = -110
+  identifier = "about"
+  url = "/about"
+
+[[menu.main]] 
+  name = "Posts"
+  weight = -100
+  identifier = "posts"
+  url = "/posts"

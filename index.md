@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-## Arun Reddy Nelakurthi
+# Arun Reddy Nelakurthi
 ### Grad @ Arizona State University
 
 I am a third year PhD student at the STAR Lab, Arizona State University, working under the supervision of Dr. Jingrui He. My area of research includes Transfer Learning, Heterogenous Learning and Social Network Analysis. Before that, I did my MS Thesis under the supervision of Dr. Heather Ponbarry. 

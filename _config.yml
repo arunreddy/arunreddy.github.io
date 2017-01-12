@@ -31,3 +31,6 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+include:
+  - google56eefb21a3903eba.html

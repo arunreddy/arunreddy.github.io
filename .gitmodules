@@ -1,6 +1,0 @@
-[submodule "themes/hugolens"]
-	path = themes/hugolens
-	url = git@github.com:arunreddy/hugolens.git
-[submodule "themes/casper"]
-	path = themes/casper
-	url = git@github.com:arunreddy/hugo-theme-casper.git

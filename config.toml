@@ -4,7 +4,7 @@ title = "Arun's Weblog"
 
 
 
-theme = "casper"
+theme = "hyde"
 
 [params]
   description = "Graduate Student @ ASU"
